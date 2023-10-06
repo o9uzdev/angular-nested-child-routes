@@ -1,0 +1,7 @@
+<p>products works!</p>
+
+<div *ngIf="this.productId">
+  product id:{{ productId }}
+  <a routerLink="spec">Spec</a> | <a routerLink="overview">Overview</a>
+  <router-outlet></router-outlet>
+</div>
